@@ -4,10 +4,6 @@
       {
         "src": "public/index.php",
         "use": "@vercel/php"
-      },
-      {
-        "src": "vite.config.js",
-        "use": "@vercel/static-build"
       }
     ],
     "routes": [
@@ -27,4 +23,4 @@
       "LOG_CHANNEL": "stderr",
       "SESSION_DRIVER": "cookie"
     }
-  }
+}
