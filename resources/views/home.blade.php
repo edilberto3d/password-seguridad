@@ -56,6 +56,9 @@
         </div>
     </div>
 
+    <x-footer />
+
+
     <script>
         document.querySelectorAll('input[name="cipher"]').forEach((elem) => {
             elem.addEventListener('change', function() {

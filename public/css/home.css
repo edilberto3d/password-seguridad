@@ -4,7 +4,8 @@
 .logo-text-container {
     text-align: center;
     padding-top: 10px;
-    background-color: #3797a3; /* Fondo azul */
+    
+    background-color: #234061;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -101,7 +102,7 @@ MODO OSCURO
     position: absolute;
     width: 26px;
     height: 26px;
-    
+
     border-radius: 50%;
     top: 2px;
     left: 2px;

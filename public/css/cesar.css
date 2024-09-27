@@ -167,7 +167,7 @@ button {
     background-color: #333; /* Fondo del pie de modal en modo oscuro */
 }
 
-.dark-mode .modal-footer a {
+.dark-mode .modal-footer a label {
     color: #fff; /* Color blanco para el enlace de la lupa */
 }
 
@@ -227,7 +227,7 @@ button {
     color: #e0e0e0; /* Color de texto claro */
 }
 
-.dark-mode .comparison-table td .language-select {
+.dark-mode .comparison-table td .language-select #output-text-escitala {
     background-color: #1e1e1e; /* Fondo oscuro para las celdas */
     color: #e0e0e0; /* Texto claro */
 }
@@ -253,4 +253,17 @@ button {
     background-color: rgb(0, 0, 0); /* Fondo del select en modo claro */
     color: rgb(255, 255, 255); /* Texto del select en modo claro */
     transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+
+.dark-mode #output-text-escitala {
+    color: white !important; /* Asegura que el texto cifrado o descifrado sea blanco */
+    background-color: #333333; /* Fondo del campo en modo oscuro */
+}
+
+
+.dark-mode #column-number {
+    color: white !important; /* Texto blanco dentro del input */
+    background-color: #333333; /* Fondo del input oscuro */
+    border-color: white !important; /* Borde blanco para el campo */
 }
